@@ -46,11 +46,10 @@ body {
 /* Estilos para el carrusel */
 
 .carousel-item {
-    height: 600px;
-    transition: transform .6s ease-in-out;
+    height: 550px;
 }
 
-.carousel-item img {
+.imagenes-carousel {
     width: 100%;
     object-fit: cover;
 }
