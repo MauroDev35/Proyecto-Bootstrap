@@ -1,0 +1,157 @@
+@import url('https://fonts.cdnfonts.com/css/apercu-pro');
+@import url('https://fonts.cdnfonts.com/css/cheltenham-lt');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+:root {
+    
+    /* Escala tipografica */
+    font-size: 62.5%;
+
+    /* Familias tipograficas */
+    --font-1: 'Apercu Pro', sans-serif;
+    --font-2: 'Cheltenham LT', sans-serif;
+    --font-3: 'Nunito Sans', sans-serif;
+
+    /* Variables tipograficas */
+    --text-caption: 1.2rem;
+    --text-note: 1.4rem;
+    --text-base: 1.8rem;
+    --text-subheader: 2rem;
+    --text-title: 2.8rem;
+    --text-headline: 4.2rem;
+    --text-display: 8.8rem;
+    --text-jumbo: 14rem;
+
+    /* Colores */
+    --primary-1: #12141b;
+    --primary-2: #000000;
+
+    --secondary-1:  #abd5f5;
+    --secondary-2: #ffffff;
+    --secondary-3: #f7f7f7;
+
+    /* Estilos para el scrollbar */
+    scrollbar-width: none;
+
+}
+
+body {
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    color: var(--primary-1);
+
+    background-color: var(--secondary-1);
+}
+
+/* Estilos para el carrusel */
+
+.carousel-item {
+    height: 600px;
+    transition: transform .6s ease-in-out;
+}
+
+.carousel-item img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Estilos generales para las tarjetas*/
+
+h1 {
+    font-family: var(--font-2);
+    font-size: var(--text-title);
+    text-align: center;
+
+    margin-top: 1.6rem;
+}
+
+.card {
+    margin: 1.2rem  auto 1.2rem auto;
+}
+
+/* Estilos pagina Ayuda */
+
+.helpCenter{
+    margin: 0 2rem 5.2rem 2rem;
+}
+
+.title2 {
+    margin-top: 2rem;
+    font-family: var(--font-2);
+    font-size: var(--text-title);
+    color: var(--primary-1);
+}
+
+.subtitle {
+    margin-top: 1.6rem;
+    font-family: var(--font-3);
+    font-size: var(--text-subheader);
+    font-weight: 800;
+    color: var(--primary-1);
+}
+
+.tableSubtitle {
+    margin-top: 1.6rem;
+    text-align: center;
+    font-family: var(--font-3);
+    font-size: var(--text-subheader);
+    font-weight: 800;
+    color: var(--primary-1);
+}
+
+.helpCenter p {
+    margin-top: 0.4rem;
+    text-align: justify;
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    font-weight: 400;
+    color: var(--primary-1);
+}
+
+.helpCenter ul {
+    margin-left: 2rem;
+}
+
+.helpCenter ul li {
+    margin-top: 0.4rem;
+    text-align: justify;
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    font-weight: 400;
+    color: var(--primary-1);
+}
+
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 50%;
+    margin-top: 1.6rem;
+    border-collapse: collapse;
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    color: var(--primary-1);
+}
+
+th, td {
+    border: 0.1rem solid var(--primary-2);
+    padding: 0.8rem;
+    text-align: left;
+}
+
+th {
+    background-color: var(--secondary-3);
+}
+
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.map {
+    margin-top: 2rem;
+}
