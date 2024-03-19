@@ -49,19 +49,26 @@ body {
     height: 550px;
 }
 
-.imagenes-carousel {
-    width: 100%;
-    object-fit: cover;
-}
-
 /* Estilos generales para las tarjetas*/
 
-h1 {
+.bg-blue {
+    background-color: var(--secondary-1);
+}
+
+.title {
     font-family: var(--font-2);
-    font-size: var(--text-title);
+    font-size: var(--text-subheader);
     text-align: center;
 
-    margin-top: 1.6rem;
+    margin-top: 0.8rem;
+}
+
+.parragraph {
+    font-family: var(--font-3);
+    font-size: var(--text-base);
+    text-align: center;
+
+    margin-top: 0.8rem;
 }
 
 .card {
